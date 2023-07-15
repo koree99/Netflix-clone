@@ -12,18 +12,18 @@ body {
     bottom: 0;
     left: 0;
     height: 600px;
-    position: relative;
+}
+.cont-1 {
+    width: 80%;
+    margin: auto;
 }
 .cont {
     display: flex;
     justify-content: space-between;
-    gap: 100px;
-    margin: -42% auto;
-    position: absolute;
+    margin-top: 1.5%;
 }
 .logo img {
     width: 13%;
-    margin-left: 15%;
 }
 button {
     background-color: red;
@@ -40,11 +40,11 @@ button {
 .container1 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 540px;
 }
 .cont1 {
-    position: absolute;
     text-align: center;
-    top: 30%;
 }
 .cont1 form {
     display: flex;
@@ -86,7 +86,7 @@ input {
     margin-left: 4%;
 }
 hr {
-    margin-top: 2%;
+    margin-top: 1%;
     height: 7px;
     border: none;
     background-color: rgb(46, 45, 45);
@@ -263,32 +263,16 @@ span {
 
 @media screen and (max-width: 480px) {
 .cont {
-    top: 35%;
-    margin-right: 10%;
+   margin-top: 7%;
 }
-.logo img {
-    width: 40%;
-    margin-left: 10%;
-}
-.container1 {
-    width: 70%;
-    margin: auto;
-}
-h1 {
-    font-size: 30px;
-    width: 70%;
-    margin: auto;
-}
-p {
-    font-size: 18px;
+.cont-1 {
+    width: 95%;
 }
 .cont1 p {
-    font-size: 23px;  
+    font-size: 20px;  
 }
 .cont1 form {
     flex-direction: column;
-    width: 90%;
-    margin: auto;
 }
 input {
     width: 95%;
@@ -298,6 +282,21 @@ input {
     width: 40%;
     padding: 2.6%;
     margin: auto;
+}
+.logo img {
+    width: 30%;
+}
+.container1 {
+    width: 90%;
+    margin: auto;
+}
+h1 {
+    font-size: 30px;
+    width: 90%;
+    margin: auto;
+}
+p {
+    font-size: 18px;
 }
 hr {
     margin-top: 5%;
